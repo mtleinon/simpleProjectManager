@@ -1,7 +1,7 @@
-import { Component } from './base-component.js';
-import { Draggable } from '../models/drag-and-drop.js';
-import { autoBind } from '../decorators/autobind.js';
-import { Project } from '../models/project.js';
+import { Component } from './base-component';
+import { Draggable } from '../models/drag-and-drop';
+import { autoBind } from '../decorators/autobind';
+import { Project } from '../models/project';
 
 export class SingleProject extends Component<HTMLDivElement, HTMLElement>
   implements Draggable {
